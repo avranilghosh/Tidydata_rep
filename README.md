@@ -1,9 +1,9 @@
 
-### Tidy Data Repo
+## Tidy Data Repo
 ==================================================================
 
-## This repository contains R script "run_analysis" which can be used to create a Tidy Dataset using the data collected from  accelerometers from the Samsung Galaxy S smartphone which contains acceleration/angular velocity data of different subjects performing different activities. 
-## The data can be downloaded from the link "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" 
+### This repository contains R script "run_analysis" which can be used to create a Tidy Dataset using the data collected from  accelerometers from the Samsung Galaxy S smartphone which contains acceleration/angular velocity data of different subjects performing different activities. 
+### The data can be downloaded from the link "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" 
 
 
 About the Data
@@ -46,14 +46,14 @@ Output
 Explanation of what script does
 =================================
 
-Step1: Loads the data x_test,y_test,subject_test,_train, y_train, subject_train, features, activity_labels files into dataframes in R with the same name as the file name.
-Step2: Merges all the test data set using cbind(), Merges all the train data set using cbind() and finally Merges both the test and test data set using rbind() into a final data set c_set.
-Step3: Creates a dataframe features_f using function grepl() and subsetting commands which stores the position of all the measures in the previously generated dataset c_set with mean/std in measure name. For measue name I have used the features dataframe which contain the name of all the measures in c_set. 
-Step4: Subsetting c_set using feaures_f to get only those measures with mean or std
-Step5: Merging c_set with activity_labels data set to get the descriptive names of the activities which originally came from y_test and y_train data sets in Step2. The new dataset generated is mergeData.
-Step6: Giving proper descriptive variable names to the measures in mergeData using names() function
-Step7: Using "ddply" to generate a summarized dataset containing the average of each of the measures (containg mean or std) across Activities and Subjects from mergeData dataset. The result is stored in tidy_data dataset.
-Step8: Writing the contents of tidy_data dataset into a text document "tidy_data.txt" in the working directory using write.table() function.
+* Step1: Loads the data x_test,y_test,subject_test,_train, y_train, subject_train, features, activity_labels files into dataframes in R with the same name as the file name.
+* Step2: Merges all the test data set using cbind(), Merges all the train data set using cbind() and finally Merges both the test and test data set using rbind() into a final data set c_set.
+* Step3: Creates a dataframe features_f using function grepl() and subsetting commands which stores the position of all the measures in the previously generated dataset c_set with mean/std in measure name. For measue name I have used the features dataframe which contain the name of all the measures in c_set. 
+* Step4: Subsetting c_set using feaures_f to get only those measures with mean or std
+* Step5: Merging c_set with activity_labels data set to get the descriptive names of the activities which originally came from y_test and y_train data sets in Step2. The new dataset generated is mergeData.
+* Step6: Giving proper descriptive variable names to the measures in mergeData using names() function
+* Step7: Using "ddply" to generate a summarized dataset containing the average of each of the measures (containg mean or std) across Activities and Subjects from mergeData dataset. The result is stored in tidy_data dataset.
+* Step8: Writing the contents of tidy_data dataset into a text document "tidy_data.txt" in the working directory using write.table() function.
 
 
 
