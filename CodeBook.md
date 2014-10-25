@@ -6,14 +6,21 @@ Generated from accelerometers signals from the Samsung Galaxy S smartphone which
 (generated after running the R script "run_analysis.R" as mentioned with instructions in README file)
 
 
-*1. Activityname – Describes the Activity performed by the subject while data was recorded by Smart Phone.	
-	
-*LAYING
-*SITTING
-*STANDING
-*WALKING
-*WALKING DOWNSTAIRS
-*WALKING UPSTAIRS
+*1. Activityname – Describes the Activity performed by the subject while data was recorded by Smart Phone.
+
+-LAYING
+
+-SITTING
+
+-STANDING
+
+-WALKING
+
+-WALKING DOWNSTAIRS
+
+-WALKING UPSTAIRS
+
+
 	
 *2. SubjectCode – Identifies the subject for whom data was recorded. There were 30 subjects within an age bracket of 19-48 years. They are numbered from 1 to 30.	
 	
