@@ -24,6 +24,8 @@ The Repository includes the following files:
 
 * 'CodeBook.md' - describes the variables, the data, and any transformations or work that has been performed to clean up the data 
 
+* 'CODEBOOK.pdf' - describes the variables, the data, and any transformations or work that has been performed to clean up the data 
+
 
 Pre-requisites and Steps: 
 ===========================
