@@ -2,8 +2,8 @@
 ## Tidy Data Repo
 ==================================================================
 
-### This repository contains R script "run_analysis" which can be used to create a Tidy Dataset using the data collected from  accelerometers from the Samsung Galaxy S smartphone which contains acceleration/angular velocity data of different subjects performing different activities. 
-### The data can be downloaded from the link "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" 
+This repository contains R script "run_analysis" which can be used to create a Tidy Dataset using the data collected from  accelerometers from the Samsung Galaxy S smartphone which contains acceleration/angular velocity data of different subjects performing different activities. 
+The data can be downloaded from the link "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" 
 
 
 About the Data

@@ -66,6 +66,7 @@ createTidyDataset <- function()  {
    
    mergeData<-merge(activity_labels,c_set,by.x="V1",by.y="V1",all=TRUE) #Merging activity_labels dataset with c_set to provide descriptive activity names in a new set mergeData
    
+   mergeData$V2.x<- gsub("_"," ",mergeData$V2.x) #Subsituting underscore with space in activity labels
    
    print("Activity4: Appropriately labeling the data set with descriptive variable names")
    
@@ -144,7 +145,7 @@ createTidyDataset <- function()  {
                        "MeanFrequencyofMagnitudeofAccelerationofBodyinFrequencyDomain",
                        "MeanofMagnitudeofAccelerationofJerkofBodyinFrequencyDomain",
                        "StandardDeviationofMagnitudeofAccelerationofJerkofBodyinFrequencyDomain",
-                       "cMagnitudeofAccelerationofJerkofBodyinFrequencyDomain",
+                       "MagnitudeofAccelerationofJerkofBodyinFrequencyDomain",
                        "MeanofMagnitudeofAngularvelocityofBodyinFrequencyDomain",
                        "StandardDeviationofMagnitudeofAngularvelocityofBodyinFrequencyDomain",
                        "MeanFrequencyofMagnitudeofAngularvelocityofBodyinFrequencyDomain",
@@ -231,7 +232,7 @@ createTidyDataset <- function()  {
                     MeanFrequencyofMagnitudeofAccelerationofBodyinFrequencyDomain=mean(MeanFrequencyofMagnitudeofAccelerationofBodyinFrequencyDomain),
                     MeanofMagnitudeofAccelerationofJerkofBodyinFrequencyDomain=mean(MeanofMagnitudeofAccelerationofJerkofBodyinFrequencyDomain),
                     StandardDeviationofMagnitudeofAccelerationofJerkofBodyinFrequencyDomain=mean(StandardDeviationofMagnitudeofAccelerationofJerkofBodyinFrequencyDomain),
-                    cMagnitudeofAccelerationofJerkofBodyinFrequencyDomain=mean(cMagnitudeofAccelerationofJerkofBodyinFrequencyDomain),
+                    MagnitudeofAccelerationofJerkofBodyinFrequencyDomain=mean(MagnitudeofAccelerationofJerkofBodyinFrequencyDomain),
                     MeanofMagnitudeofAngularvelocityofBodyinFrequencyDomain=mean(MeanofMagnitudeofAngularvelocityofBodyinFrequencyDomain),
                     StandardDeviationofMagnitudeofAngularvelocityofBodyinFrequencyDomain=mean(StandardDeviationofMagnitudeofAngularvelocityofBodyinFrequencyDomain),
                     MeanFrequencyofMagnitudeofAngularvelocityofBodyinFrequencyDomain=mean(MeanFrequencyofMagnitudeofAngularvelocityofBodyinFrequencyDomain),
