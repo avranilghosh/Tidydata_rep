@@ -2,9 +2,10 @@
 	
 Generated from accelerometers signals from the Samsung Galaxy S smartphone which contains acceleration/angular velocity data of different subjects performing different activities.
 
-Description of Columns in the Tidy dataset generated after running the R script "run_analysis.R" as mentioned with instructions in README file
-===============================================================================================================================================
-	
+###Description of Columns in the Tidy dataset 
+(generated after running the R script "run_analysis.R" as mentioned with instructions in README file)
+
+
 *1. Activityname – Describes the Activity performed by the subject while data was recorded by Smart Phone.	
 	
 LAYING	
@@ -253,13 +254,4 @@ Values in the Tidy dataset ranges between  -0.999999999 to 0.999999999
 *81 MeanFrequencyofMagnitudeofAngularvelocityofJerkofBodyinFrequencyDomain - Mean Frequency of Magnitude of Angular velocity of Jerk of Body  in Frequency Domain. The Tidy dataset gives the average of the above measure across different subjects and activities. 
 Values in the Tidy dataset ranges between  -0.999999999 to 0.999999999	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
