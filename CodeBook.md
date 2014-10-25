@@ -8,12 +8,12 @@ Generated from accelerometers signals from the Samsung Galaxy S smartphone which
 
 *1. Activityname – Describes the Activity performed by the subject while data was recorded by Smart Phone.	
 	
-LAYING	
-SITTING	
-STANDING	
-WALKING	
-WALKING DOWNSTAIRS	
-WALKING UPSTAIRS	
+*LAYING
+*SITTING
+*STANDING
+*WALKING
+*WALKING DOWNSTAIRS
+*WALKING UPSTAIRS
 	
 *2. SubjectCode – Identifies the subject for whom data was recorded. There were 30 subjects within an age bracket of 19-48 years. They are numbered from 1 to 30.	
 	
